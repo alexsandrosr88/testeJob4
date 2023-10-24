@@ -11,11 +11,11 @@ public class Atividade12 {
             System.out.print(i + " ");
         }
 
-        int valorBuscado = 9;
+        int valorBuscado = 8;
         int posicao = buscaBinaria(vetorInteiros, valorBuscado);
 
         if (posicao != -1) {
-            System.out.println("\n\nValor " + valorBuscado + " foi encontrado na posição : "+ (posicao+1)+" do vetor.");
+            System.out.println("\n\nValor " + valorBuscado + " foi encontrado na : "+ (posicao+1)+"º posição do vetor.");
         } else
             System.out.println("\n\nO valor não foi encontrado!");
 
