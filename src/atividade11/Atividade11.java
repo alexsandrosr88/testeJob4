@@ -19,7 +19,7 @@ public class Atividade11 {
                     .mapToDouble(Double::parseDouble)
                     .average().orElse(0.0);
 
-            System.out.println("A media dos valore é: " + media);
+            System.out.println("A média é: " + media);
 
         } catch (IOException e) {
             System.out.println("\nOcorreu um erro de leitura do arquivo.txt! Por favor Verifique!");
